@@ -1,0 +1,47 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.responsiveContainer {
+    max-width: 300px;
+  
+    @media (min-width: em(400px)) {
+      max-width: 400px;
+    }
+  
+    @media (min-width: em(600px)) {
+      max-width: 1400px;
+      margin-top: 80px;
+    }
+  }
+
+/* 
+Infografis
+*/
+
+.info-mainLinks {
+  color: black;
+  /* padding: rem(7px) var(--mantine-spacing-sm); */
+  font-weight: 700;
+  border-bottom: rem(2px) solid light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1)) transparent;
+  transition:
+    border-color 100ms ease,
+    color 100ms ease;
+
+  @mixin hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  &[data-active] {
+    color: black;
+    border-bottom-color: black;
+  }
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}

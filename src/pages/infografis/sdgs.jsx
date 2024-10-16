@@ -41,7 +41,7 @@ export default function Sdgs() {
                       <Grid>
                         <Grid.Col span={6}>
                           <Text size="xl" fw={700}>
-                            Skor SDGs Desa Sonoageng
+                            Skor SDGs Desa Karangrejo
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={6}>

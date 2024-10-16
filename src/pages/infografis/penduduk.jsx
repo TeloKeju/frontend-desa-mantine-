@@ -207,7 +207,7 @@ export default function Penduduk() {
               </Title>
               <Paper p={"lg"}>
                 <Text align="center" mb={"md"}>
-                  Laki-Laki
+                  Chart Umur
                 </Text>
                 <BarChart
                   h={300}
@@ -221,10 +221,10 @@ export default function Penduduk() {
                   barChartProps={{ syncId: "umur" }}
                   yAxisProps={{ width: 60 }}
                   barProps={{ radius: 5 }}
-                  series={[{ name: "Laki", color: "blue.6" }]}
+                  series={[{ name: "Perempuan", color: "blue.6" }]}
                 />
-                <Text align="center" mt={"lg"} mb={"md"}>
-                  Perempuan
+                {/* <Text align="center" mt={"lg"} mb={"md"}>
+                  
                 </Text>
                 <BarChart
                   h={300}
@@ -238,9 +238,9 @@ export default function Penduduk() {
                   yAxisProps={{ width: 60 }}
                   barProps={{ radius: 5 }}
                   series={[{ name: "Perempuan", color: "pink.6" }]}
-                />
+                /> */}
               </Paper>
-              <Paper shadow="sm" p={"lg"}>
+              {/* <Paper shadow="sm" p={"lg"}>
                 <Text fw={500}>
                   Untuk jenis kelamin laki-laki, kelompok umur <b>10-14</b>{" "}
                   adalah kelompok umur tertinggi dengan jumlah orang{" "}
@@ -257,10 +257,10 @@ export default function Penduduk() {
                   <b>85+ dan 80-84 tahun</b> adalah yang terendah dengan
                   masing-masing berjumlah <b>11 orang</b> atau <b>0.50%</b>
                 </Text>
-              </Paper>
+              </Paper> */}
             </Stack>
 
-            <Stack>
+            {/* <Stack>
               <Title order={1} size={"44px"}>
                 Berdasarkan Dusun
               </Title>
@@ -291,7 +291,7 @@ export default function Penduduk() {
                   </Grid.Col>
                 </Grid>
               </Paper>
-            </Stack>
+            </Stack> */}
 
             <Stack>
               <Title order={1} size={"34px"}>
@@ -346,7 +346,7 @@ export default function Penduduk() {
                             Pelajar/Mahasiswa
                           </Text>
                           <Text fw={700} size="32px" ta={"right"}>
-                            1.158
+                            1.034
                           </Text>
                         </Stack>
                       </Paper>
@@ -358,7 +358,7 @@ export default function Penduduk() {
                             Mengurus Rumah Tangga
                           </Text>
                           <Text fw={700} size="32px" ta={"right"}>
-                            1.158
+                            947
                           </Text>
                         </Stack>
                       </Paper>
@@ -370,7 +370,7 @@ export default function Penduduk() {
                             Belum/Tidak Bekerja
                           </Text>
                           <Text fw={700} size="32px" ta={"right"}>
-                            1.158
+                            1.124
                           </Text>
                         </Stack>
                       </Paper>
@@ -382,12 +382,12 @@ export default function Penduduk() {
                             Wiraswasta
                           </Text>
                           <Text fw={700} size="32px" ta={"right"}>
-                            1.158
+                            1.332
                           </Text>
                         </Stack>
                       </Paper>
                     </Grid.Col>
-                    <Grid.Col span={4}>
+                    {/* <Grid.Col span={4}>
                       <Paper p={"md"} shadow="sm">
                         <Stack>
                           <Text h={100} fw={700} size="lg">
@@ -410,7 +410,7 @@ export default function Penduduk() {
                           </Text>
                         </Stack>
                       </Paper>
-                    </Grid.Col>
+                    </Grid.Col> */}
                   </Grid>
                 </Grid.Col>
               </Grid>
@@ -456,7 +456,7 @@ export default function Penduduk() {
                             x
                             fw={700}
                           >
-                            4.486
+                            2.426
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -486,7 +486,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            1.382
+                            3.009
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -516,7 +516,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.299
+                            409
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -546,14 +546,14 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.187
+                            224
                           </Text>
                         </Stack>
                       </Grid.Col>
                     </Grid>
                   </Paper>
                 </Grid.Col>
-                <Grid.Col span={4}>
+                {/* <Grid.Col span={4}>
                   <Paper h={160} shadow="sm" p={"md"}>
                     <Grid justify="center" align="center">
                       <Grid.Col span={4}>
@@ -612,7 +612,7 @@ export default function Penduduk() {
                       </Grid.Col>
                     </Grid>
                   </Paper>
-                </Grid.Col>
+                </Grid.Col> */}
               </Grid>
             </Stack>
 
@@ -644,7 +644,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            4.486
+                            5.979
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -674,7 +674,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            1.382
+                            89
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -704,7 +704,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.299
+                            0
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -734,7 +734,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.187
+                            0
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -764,7 +764,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.187
+                            0
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -786,7 +786,7 @@ export default function Penduduk() {
                       <Grid.Col span={8}>
                         <Stack>
                           <Text size="24px" fw={700}>
-                            Kawin Tak Tercatat
+                            Budha
                           </Text>
                           <Text
                             component="span"
@@ -794,7 +794,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.187
+                            0
                           </Text>
                         </Stack>
                       </Grid.Col>
@@ -824,7 +824,7 @@ export default function Penduduk() {
                             size="32px"
                             fw={700}
                           >
-                            2.187
+                            0
                           </Text>
                         </Stack>
                       </Grid.Col>

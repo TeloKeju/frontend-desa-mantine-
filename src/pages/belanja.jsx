@@ -12,7 +12,10 @@ import {
   Image,
   Group,
   Rating,
+  Paper,
 } from "@mantine/core";
+
+import { IconFishOff } from "@tabler/icons-react";
 
 export default function Belanja() {
   return (
@@ -32,7 +35,7 @@ export default function Belanja() {
                 </Text>
               </Box>
               <Grid gutter={"lg"}>
-                <Grid.Col span={4}>
+                {/* <Grid.Col span={4}>
                   <Card shadow="sm" padding="lg" radius="md" withBorder>
                     <Card.Section>
                       <Image
@@ -54,8 +57,18 @@ export default function Belanja() {
                       </Group>
                     </Stack>
                   </Card>
-                </Grid.Col>
+                </Grid.Col> */}
               </Grid>
+              <Box>
+                <Container>
+                  <Paper h={70} shadow="xs" p={"md"}>
+                    <Group justify="center" align="center">
+                      <IconFishOff></IconFishOff>
+                      Belum ada Galeri Desa yang terdaftar
+                    </Group>
+                  </Paper>
+                </Container>
+              </Box>
             </Stack>
           </Stack>
         </Container>

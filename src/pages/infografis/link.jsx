@@ -28,7 +28,7 @@ export default function Link() {
           <Title tt={"uppercase"} order={1} size={"44px"}>
             Infografis
             <br />
-            Desa Sonoageng
+            Desa Karangrejo
           </Title>
         </Grid.Col>
         <Grid.Col span={7}>

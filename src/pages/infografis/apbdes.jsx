@@ -122,9 +122,9 @@ export default function Apbdes() {
           <Stack gap={"100px"}>
             <Grid justify="center" align="center">
               <Grid.Col span={5}>
-                <Title>APB Desa Sonoageng Tahun 2024</Title>
+                <Title>APB Desa Karangrejo Tahun 2024</Title>
                 <Text>
-                  Desa Sonoageng, Kecamatan Prambon, Kabupaten Nganjuk, Provinsi
+                  Desa Karangrejo, Kecamatan Kandat, Kabupaten Kediri, Provinsi
                   Jawa Timur
                 </Text>
               </Grid.Col>
@@ -146,7 +146,7 @@ export default function Apbdes() {
                         </Text>
                       </Group>
                       <Text c={"green"} size="24px" fw={700}>
-                        Rp2.211.273.600,00
+                        Rp2.409.228.574,00
                       </Text>
                     </Paper>
                     <Paper shadow="sm" p={"md"} withBorder>
@@ -196,7 +196,7 @@ export default function Apbdes() {
                         Surplus/Defisit
                       </Text>
                       <Text c={"green"} size="24px" fw={700}>
-                        Rp2.211.273.600,00
+                        Rp2.409.228.574,00
                       </Text>
                     </Group>
                   </Paper>

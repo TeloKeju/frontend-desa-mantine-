@@ -68,16 +68,16 @@ export default function Header() {
         fluid
         h={90}
         className={classes.inner}
-        style={{ backgroundColor: theme.colors.dark[3] }}
+        style={{ backgroundColor: "#4F75FF" }}
       >
         <Group>
           <Image radius={"sm"} src={logo} h={80} w={"auto"} />
           <Text>
             <Text c={"white"} size="lg" fw={"700"}>
-              Desa Sonoageng
+              Desa Karangrejo
             </Text>
             <Text c={"white"} size="md" fw={"450"}>
-              Kabupaten Nganjuk
+              Kabupaten Kediri
             </Text>
           </Text>
         </Group>

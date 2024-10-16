@@ -31,10 +31,10 @@ export default function Profile() {
                   </Box>
                   <Box>
                     <Title align="center" order={1}>
-                      DESA SONOAGENG
+                      DESA KARANGREJO
                     </Title>
                     <Text align="center" fw={700}>
-                      Kecamatan Prambon, Kabupaten Nganjuk, Provinsi Jawa Timur
+                      Kecamatan Kandat, Kabupaten Kedir, Provinsi Jawa Timur
                     </Text>
                   </Box>
                 </Stack>
@@ -45,7 +45,8 @@ export default function Profile() {
                     VISI
                   </Title>
                   <Text align="center" fw={700} size="md">
-                    Desa Sonoageng yang Maju, Mandiri, dan Bernafaskan Keagamaan
+                    terwujudnya Desa karangrejo yang harmonis, maju, berdaya
+                    saing, agamis, tentram dan sejahtera pada tahun 2027
                   </Text>
                   <Title align="center" size={"44px"} order={1}>
                     MISI
@@ -53,33 +54,31 @@ export default function Profile() {
                   <List type="ordered">
                     <List.Item>
                       <Text fw={500}>
-                        Mewujudkan tata kelola pemerintahan desa yang baik,
-                        bersih (good and clean governance) serta layanan publik
-                        yang prima berbasis teknologi informasi.
+                        Meningkatkan kualitas pelayanan publik dan tata kelola
+                        pemerintahan berbasis Good Government.
                       </Text>
                     </List.Item>
                     <List.Item>
                       <Text fw={500}>
-                        Meningkatkan keterpenuhan sarana dan prasarana
-                        pengembangan wilayah, ekonomi, sosial dan lingkungan
-                        hidup di desa serta keterpenuhan hak-hak dasar
-                        masyarakat.
+                        Meningkatkan Kualitas pembangunan sumber daya manusia
+                        seutuhnya melalui optimalisasi gerakan pemberdayaan
+                        masyarakat di berbagai bidang secara terpadu.
                       </Text>
                     </List.Item>
                     <List.Item>
                       <Text fw={500}>
-                        Meningkatkan pemanfaatan potensi ekonomi untuk
-                        kemandirian masyarakat.
+                        Menjaga dan meningkatkan keamanan, ketentraman,
+                        ketertiban, dan kerukunan masyarakat untuk pelaksanaan
+                        pembangunan didukung dengan pengalaman keagamaan dan
+                        nilai – nilai luhur berdaya bangsa.
                       </Text>
                     </List.Item>
                     <List.Item>
                       <Text fw={500}>
-                        Mengembangkan kegiatan strategis desa untuk mendukung
-                        kemajuan desa.
+                        Meningkatkan pengembangan perekonomian Desa secara
+                        berkelanjutan didukung infrastruktur dan kawasan
+                        berkualitas berbasis TIK
                       </Text>
-                    </List.Item>
-                    <List.Item>
-                      <Text fw={500}>Meningkatkan kehidupan beragama.</Text>
                     </List.Item>
                   </List>
                 </Stack>
@@ -89,18 +88,14 @@ export default function Profile() {
             <Stack gap={"xl"}>
               <Box>
                 <Title order={1}>BAGAN DESA</Title>
-                <Text>Bagan Struktur Desa Sonoageng</Text>
+                <Text>Bagan Struktur Desa Karangrejo</Text>
               </Box>
               <Stack>
                 <Box>
                   <Title tt={"uppercase"} order={1}>
                     Struktur Organisasi Pemerintahan Desa
                   </Title>
-                  <Image
-                    src={
-                      "https://cdn.digitaldesa.com/uploads/profil/73.11.02.2006/common/400cda6fa33346ce30adf360a1bec880.jpg"
-                    }
-                  />
+                  <Image src={"https://placehold.co/800x400"} />
                 </Box>
               </Stack>
               <Stack>
@@ -108,16 +103,12 @@ export default function Profile() {
                   <Title tt={"uppercase"} order={1}>
                     Struktur Organisasi Badan Permusyawaratan Desa
                   </Title>
-                  <Image
-                    src={
-                      "https://cdn.digitaldesa.com/uploads/profil/73.11.02.2006/common/238db8ac9a20b8f91f444eb0cb8498fb.jpg"
-                    }
-                  />
+                  <Image src={"https://placehold.co/800x400"} />
                 </Box>
               </Stack>
-              <Stack>
+              {/* <Stack>
                 <Box>
-                  <Title order={1}>SEJARAH DESA SONOAGENG</Title>
+                  <Title order={1}>SEJARAH DESA KARANGREJO</Title>
                 </Box>
                 <Spoiler
                   maxHeight={230}
@@ -208,19 +199,19 @@ export default function Profile() {
                     exercitationem, reprehenderit repellendus suscipit eveniet?
                   </Text>
                 </Spoiler>
-              </Stack>
+              </Stack> */}
             </Stack>
             <Stack gap={"lg"}>
               <Box>
                 <Title order={1}>PETA LOKASI DESA</Title>
-                <Text>Peta Lokasi Desa Sonoageng</Text>
+                <Text>Peta Lokasi Desa Karangrejo</Text>
               </Box>
               <Grid gutter={"md"}>
                 <Grid.Col span={6}>
                   <Paper p={"md"} shadow="sm">
                     <Stack gap={"xs"} h={424} w={"100%"}>
                       <Title order={1} size="32px">
-                        Desa Sonoageng
+                        Desa Karangrejo
                       </Title>
                       <Divider size={"sm"} />
                       <Title order={2} fw={500} size="22px" c={"dimmed"}>
@@ -232,7 +223,7 @@ export default function Profile() {
                             Utara
                           </Title>
                           <Text fw={700} size="24px">
-                            Desa Kampung Baru
+                            Desa Kandat dan Desa Selosari
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={6}>
@@ -240,7 +231,7 @@ export default function Profile() {
                             Timur
                           </Title>
                           <Text fw={700} size="24px">
-                            Desa Kampung Baru
+                            Desa Selosari
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={6}>
@@ -248,7 +239,7 @@ export default function Profile() {
                             Selatan
                           </Title>
                           <Text fw={700} size="24px">
-                            Desa Kampung Baru
+                            Kecamatan Ringinrejo
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={6}>
@@ -256,7 +247,7 @@ export default function Profile() {
                             Barat
                           </Title>
                           <Text fw={700} size="24px">
-                            Desa Kampung Baru
+                            Desa Sumberjo
                           </Text>
                         </Grid.Col>
                       </Grid>
@@ -269,12 +260,12 @@ export default function Profile() {
                         </Grid.Col>
                         <Grid.Col span={6}>
                           <Text fw={700} size="24px">
-                            9.300.000 ㎡
+                            5192 Ha
                           </Text>
                         </Grid.Col>
                       </Grid>
                       <Divider size={"sm"} />
-                      <Grid>
+                      {/* <Grid>
                         <Grid.Col span={6}>
                           <Title size="22px" order={3} c={"dimmed"}>
                             Luas Desa
@@ -285,14 +276,14 @@ export default function Profile() {
                             9.300.000 ㎡
                           </Text>
                         </Grid.Col>
-                      </Grid>
+                      </Grid> */}
                     </Stack>
                   </Paper>
                 </Grid.Col>
                 <Grid.Col span={6}>
                   <Paper shadow="sm" w={"100%"} h={"100%"}>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15816.36155361856!2d112.00446919466805!3d-7.673431611818698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784fa65f41c897%3A0x53e619cb11c9e7de!2sSono%20Ageng%2C%20Kec.%20Prambon%2C%20Kabupaten%20Nganjuk%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1723974222529!5m2!1sid!2sid"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.063585592974!2d112.0432787447341!3d-7.945518621430899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78f7572ab20f71%3A0x1380449abe9d426f!2sKarangrejo%2C%20Kec.%20Kandat%2C%20Kabupaten%20Kediri%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1729057145104!5m2!1sid!2sid"
                       width={"100%"}
                       height={"100%"}
                       style={{ border: 0 }}

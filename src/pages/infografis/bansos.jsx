@@ -31,7 +31,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            479
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -56,7 +56,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            336
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -81,7 +81,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            299
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -106,7 +106,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            173
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -131,7 +131,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            124
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -156,7 +156,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            1
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk
@@ -181,7 +181,7 @@ export default function Bansos() {
                       <Grid.Col span={4}>
                         <Stack justify="center" align="center" gap={0}>
                           <Text size="44px" fw={700}>
-                            1
+                            0
                           </Text>
                           <Text size="xl" fw={500}>
                             Penduduk

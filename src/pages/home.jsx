@@ -65,24 +65,18 @@ export default function Home() {
               opacity={1}
               zIndex={0}
             />
-            <Container className={classes.container} size="md">
-              <Title className={classes.title}>
-                A fully featured React components library
-              </Title>
-              <Text className={classes.description} size="xl" mt="xl">
-                Build fully functional accessible web applications faster than
-                ever – Mantine includes more than 120 customizable components
-                and hooks to cover you in any situation
-              </Text>
-
-              <Button
-                variant="gradient"
-                size="xl"
-                radius="xl"
-                className={classes.control}
+            <Container
+              className={"d-flex align-items-center"}
+              style={{ minHeight: "calc(100vh - 90px)" }}
+              size="md"
+              ta={"center"}
+            >
+              <Title
+                className={classes.title}
+                style={{ color: "white", zIndex: 10 }}
               >
-                Get started
-              </Button>
+                Selamat Datang di Website Resmi Desa Karangrejo
+              </Title>
             </Container>
           </div>
         </Carousel.Slide>
@@ -93,52 +87,18 @@ export default function Home() {
               opacity={1}
               zIndex={0}
             />
-            <Container className={classes.container} size="md">
-              <Title className={classes.title}>
-                A fully featured React components library
-              </Title>
-              <Text className={classes.description} size="xl" mt="xl">
-                Build fully functional accessible web applications faster than
-                ever – Mantine includes more than 120 customizable components
-                and hooks to cover you in any situation
-              </Text>
-
-              <Button
-                variant="gradient"
-                size="xl"
-                radius="xl"
-                className={classes.control}
+            <Container
+              className={"d-flex align-items-center"}
+              style={{ minHeight: "calc(100vh - 90px)" }}
+              size="md"
+              ta={"center"}
+            >
+              <Title
+                className={classes.title}
+                style={{ color: "white", zIndex: 10 }}
               >
-                Get started
-              </Button>
-            </Container>
-          </div>
-        </Carousel.Slide>
-        <Carousel.Slide>
-          <div className={classes.hero}>
-            <Overlay
-              gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
-              opacity={1}
-              zIndex={0}
-            />
-            <Container className={classes.container} size="md">
-              <Title className={classes.title}>
-                A fully featured React components library
+                Wadah Informasi Desa Karangrejo
               </Title>
-              <Text className={classes.description} size="xl" mt="xl">
-                Build fully functional accessible web applications faster than
-                ever – Mantine includes more than 120 customizable components
-                and hooks to cover you in any situation
-              </Text>
-
-              <Button
-                variant="gradient"
-                size="xl"
-                radius="xl"
-                className={classes.control}
-              >
-                Get started
-              </Button>
             </Container>
           </div>
         </Carousel.Slide>
@@ -219,7 +179,7 @@ export default function Home() {
             <Grid style={{ marginTop: "50px" }}>
               <Grid.Col span={4}>
                 <Avatar
-                  src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-8.png"
+                  src="https://sps.widyatama.ac.id/wp-content/uploads/2020/08/dummy-profile-pic-male1.jpg"
                   size={300}
                   radius={300}
                   mx="auto"
@@ -229,11 +189,11 @@ export default function Home() {
                 <Title order={1} size={"44px"} fw={700}>
                   Sambutan Kepala Desa
                 </Title>
-                <Title order={3} size={"24px"} fw={700}>
-                  DANI ARDIANSYACH, S.D., S.M.P
+                <Title order={3} size={"24px"} fw={700} tt={"uppercase"}>
+                  Heri Sujoko, S.Pd.
                 </Title>
                 <Text fw={500} size="m">
-                  Kepala Desa Sonoageng
+                  Kepala Desa Karangrejo
                 </Text>
                 <Text mt={"md"} mb={"md"} size="lg">
                   Assalamu &apos;Alaikum Warahmatullahi Wabarakatuh
@@ -254,11 +214,11 @@ export default function Home() {
                 <Title order={1} fw={700} size={"44px"}>
                   PETA DESA
                 </Title>
-                <Text size="xl">Menampilkan Peta Desa Sonoageng</Text>
+                <Text size="xl">Menampilkan Peta Desa Karangrejo</Text>
               </Box>
               <Box>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22798.064389814204!2d112.00208463765554!3d-7.675428569324803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784fa65f41c897%3A0x53e619cb11c9e7de!2sSono%20Ageng%2C%20Kec.%20Prambon%2C%20Kabupaten%20Nganjuk%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1723908032611!5m2!1sid!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.063585592974!2d112.0432787447341!3d-7.945518621430899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78f7572ab20f71%3A0x1380449abe9d426f!2sKarangrejo%2C%20Kec.%20Kandat%2C%20Kabupaten%20Kediri%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1729057145104!5m2!1sid!2sid"
                   width={"100%"}
                   height={450}
                   style={{ border: 0 }}
@@ -275,7 +235,7 @@ export default function Home() {
                   SOTK
                 </Title>
                 <Text size="xl">
-                  Struktur Organisasi dan Tata Kerja Desa Sonoageng
+                  Struktur Organisasi dan Tata Kerja Desa Karangrejo
                 </Text>
               </Box>
               <Grid>
@@ -291,11 +251,71 @@ export default function Home() {
                     </Card.Section>
 
                     <Box>
-                      <Text align="center" fw={700} size="xl" mt="md">
-                        Nama Gelar
+                      <Text
+                        align="center"
+                        fw={700}
+                        size="xl"
+                        mt="md"
+                        tt={"uppercase"}
+                      >
+                        Heri Sujoko, S.Pd.
                       </Text>
                       <Text align="center" mt="xs" c="dimmed" size="sm">
-                        Jabatan
+                        Kepala Desa
+                      </Text>
+                    </Box>
+                  </Card>
+                </Grid.Col>
+                <Grid.Col span={3}>
+                  <Card shadow="sm">
+                    <Card.Section>
+                      <Image
+                        src="https://placehold.co/100x100"
+                        h={300}
+                        w={"100%"}
+                        alt="No way!"
+                      />
+                    </Card.Section>
+
+                    <Box>
+                      <Text
+                        align="center"
+                        fw={700}
+                        size="xl"
+                        mt="md"
+                        tt={"uppercase"}
+                      >
+                        Mohammad Dicki W S, S.Pd
+                      </Text>
+                      <Text align="center" mt="xs" c="dimmed" size="sm">
+                        Sekertaris Desa
+                      </Text>
+                    </Box>
+                  </Card>
+                </Grid.Col>
+                <Grid.Col span={3}>
+                  <Card shadow="sm">
+                    <Card.Section>
+                      <Image
+                        src="https://placehold.co/100x100"
+                        h={300}
+                        w={"100%"}
+                        alt="No way!"
+                      />
+                    </Card.Section>
+
+                    <Box>
+                      <Text
+                        align="center"
+                        fw={700}
+                        size="xl"
+                        mt="md"
+                        tt={"uppercase"}
+                      >
+                        Moh. Zainuri
+                      </Text>
+                      <Text align="center" mt="xs" c="dimmed" size="sm">
+                        Ketua BPD
                       </Text>
                     </Box>
                   </Card>
@@ -313,52 +333,10 @@ export default function Home() {
 
                     <Box>
                       <Text align="center" fw={700} size="xl" mt="md">
-                        Nama Gelar
+                        Nizam Risalatun Nisa
                       </Text>
                       <Text align="center" mt="xs" c="dimmed" size="sm">
-                        Jabatan
-                      </Text>
-                    </Box>
-                  </Card>
-                </Grid.Col>
-                <Grid.Col span={3}>
-                  <Card shadow="sm">
-                    <Card.Section>
-                      <Image
-                        src="https://placehold.co/100x100"
-                        h={300}
-                        w={"100%"}
-                        alt="No way!"
-                      />
-                    </Card.Section>
-
-                    <Box>
-                      <Text align="center" fw={700} size="xl" mt="md">
-                        Nama Gelar
-                      </Text>
-                      <Text align="center" mt="xs" c="dimmed" size="sm">
-                        Jabatan
-                      </Text>
-                    </Box>
-                  </Card>
-                </Grid.Col>
-                <Grid.Col span={3}>
-                  <Card shadow="sm">
-                    <Card.Section>
-                      <Image
-                        src="https://placehold.co/100x100"
-                        h={300}
-                        w={"100%"}
-                        alt="No way!"
-                      />
-                    </Card.Section>
-
-                    <Box>
-                      <Text align="center" fw={700} size="xl" mt="md">
-                        Nama Gelar
-                      </Text>
-                      <Text align="center" mt="xs" c="dimmed" size="sm">
-                        Jabatan
+                        Wakil Ketua BPD
                       </Text>
                     </Box>
                   </Card>
@@ -399,7 +377,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            4.490
+                            6.068
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -426,7 +404,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            2.188
+                            3.075
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -455,7 +433,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            1.383
+                            2.142
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -482,7 +460,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            2.302
+                            2.993
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -511,7 +489,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            121
+                            0
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -538,7 +516,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "30px" }}
                           >
-                            1.685
+                            13
                           </Text>
                         </Grid.Col>
                         <Grid.Col span={7}>
@@ -587,7 +565,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "45px" }}
                           >
-                            Rp2.211.273.600,00
+                            Rp. 2.409.228.574,00
                           </Text>
                         </Card>
                       </Box>
@@ -601,7 +579,7 @@ export default function Home() {
                             fw={700}
                             style={{ fontSize: "45px" }}
                           >
-                            Rp0,00
+                            Rp. 0,00
                           </Text>
                         </Card>
                       </Box>
@@ -626,7 +604,7 @@ export default function Home() {
                 <Title order={1}>Berita Desa</Title>
                 <Text>
                   Menyajikan informasi terbaru tentang peristiwa, berita
-                  terkini, dan artikel-artikel jurnalistik dari Desa Sonoageng
+                  terkini, dan artikel-artikel jurnalistik dari Desa Karangrejo
                 </Text>
               </Box>
               <Box>
@@ -646,7 +624,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -695,7 +673,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -744,7 +722,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -793,7 +771,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -842,7 +820,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -891,7 +869,7 @@ export default function Home() {
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Sonoageng Periode 2021-2027
+                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -975,7 +953,17 @@ export default function Home() {
                       menarik pengunjung desa
                     </Text>
                   </Box>
-                  <Box p={"lg"}>
+                  <Box>
+                    <Container>
+                      <Paper h={70} shadow="xs" p={"md"}>
+                        <Group justify="center" align="center">
+                          <IconFishOff></IconFishOff>
+                          Belum ada Wisata Desa yang terdaftar
+                        </Group>
+                      </Paper>
+                    </Container>
+                  </Box>
+                  {/* <Box p={"lg"}>
                     <Stack>
                       <Carousel
                         slideSize="100%"
@@ -995,7 +983,7 @@ export default function Home() {
                         <Carousel.Slide>3</Carousel.Slide>
                       </Carousel>
                     </Stack>
-                  </Box>
+                  </Box> */}
                 </Stack>
               </BackgroundImage>
               <Group justify="flex-end">
@@ -1019,7 +1007,7 @@ export default function Home() {
                   mampu meningkatkan perekonomian masyarakat desa
                 </Text>
               </Box>
-              <Grid gutter={"lg"}>
+              {/* <Grid gutter={"lg"}>
                 <Grid.Col span={4}>
                   <Card shadow="sm" padding="lg" radius="md" withBorder>
                     <Card.Section>
@@ -1158,7 +1146,17 @@ export default function Home() {
                     </Stack>
                   </Card>
                 </Grid.Col>
-              </Grid>
+              </Grid> */}
+              <Box>
+                <Container>
+                  <Paper h={70} shadow="xs" p={"md"}>
+                    <Group justify="center" align="center">
+                      <IconFishOff></IconFishOff>
+                      Belum ada Pembelian Desa yang terdaftar
+                    </Group>
+                  </Paper>
+                </Container>
+              </Box>
               <Group justify="flex-end">
                 <Button
                   fw={700}
@@ -1179,7 +1177,7 @@ export default function Home() {
                   Menampilkan kegiatan-kegiatan yang berlangsung di desa
                 </Text>
               </Box>
-              <Grid gutter={"md"}>
+              {/* <Grid gutter={"md"}>
                 <Grid.Col span={4}>
                   <Image
                     h={350}
@@ -1228,7 +1226,17 @@ export default function Home() {
                     }
                   />
                 </Grid.Col>
-              </Grid>
+              </Grid> */}
+              <Box>
+                <Container>
+                  <Paper h={70} shadow="xs" p={"md"}>
+                    <Group justify="center" align="center">
+                      <IconFishOff></IconFishOff>
+                      Belum ada Galeri Desa yang terdaftar
+                    </Group>
+                  </Paper>
+                </Container>
+              </Box>
               <Group justify="flex-end">
                 <Button
                   fw={700}

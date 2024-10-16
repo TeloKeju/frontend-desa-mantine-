@@ -56,6 +56,7 @@ export default function Footer() {
         component="a"
         href={link.link}
         onClick={(event) => event.preventDefault()}
+        c={"white"}
       >
         {link.label}
       </Text>
@@ -63,31 +64,30 @@ export default function Footer() {
 
     return (
       <div className={classes.wrapper} key={group.title}>
-        <Text className={classes.title}>{group.title}</Text>
+        <Text className={classes.title} c={"white"}>
+          {group.title}
+        </Text>
         {links}
       </div>
     );
   });
 
   return (
-    <footer
-      className={classes.footer}
-      style={{ backgroundColor: theme.colors.dark[3] }}
-    >
+    <footer className={classes.footer} style={{ backgroundColor: "#4F75FF" }}>
       <Container className={classes.inner}>
         <div className={classes.logo}>
           <Image radius={"sm"} src={logo} h={80} w={"auto"} />
-          <Text size="xs" c="dimmed" className={classes.description}>
-            <Text>Desa Sonoageng</Text>
-            <Text>Kecamatan Prambon</Text>
-            <Text>Kabupaten Nganjuk</Text>
+          <Text size="xs" c="white" className={classes.description}>
+            <Text>Desa Karangrejo</Text>
+            <Text>Kecamatan Kandat</Text>
+            <Text>Kabupaten Kediri</Text>
             <Text>Provinsi Jawa Timur</Text>
           </Text>
         </div>
         <div className={classes.groups}>{groups}</div>
       </Container>
       <Container className={classes.afterFooter}>
-        <Text c="dimmed" size="sm">
+        <Text c="white" size="sm">
           © 2020 mantine.dev. All rights reserved.
         </Text>
 
@@ -97,19 +97,19 @@ export default function Footer() {
           justify="flex-end"
           wrap="nowrap"
         >
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="white" variant="subtle">
             <IconBrandTwitter
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}
             />
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="white" variant="subtle">
             <IconBrandYoutube
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}
             />
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="white" variant="subtle">
             <IconBrandInstagram
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}

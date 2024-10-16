@@ -201,10 +201,11 @@ export default function Home() {
                 <Text size="lg">
                   Alhamdulillah, puji Syukur kita panjatkan kehadirat Allah SWT,
                   karena atas limpahan Rahmat dan Hidayah-Nya, sehingga
-                  Pemerintah Desa Pao-Pao dapat mempersembahkan pelayanan
+                  Pemerintah Desa Karangrejo dapat mempersembahkan pelayanan
                   masyarakat berbasis digital kepada seluruh masyarakat Desa
-                  Pao-Pao. Kami bangga bahwa Pelayanan yang kami persembahkan
-                  adalah merupakan Visi Desa Pao-Pao Tahun 2017-2023 yaitu&nbsp;
+                  Karangrejo. Kami bangga bahwa Pelayanan yang kami persembahkan
+                  adalah merupakan Visi Desa Karangrejo Tahun 2017-2023
+                  yaitu&nbsp;
                 </Text>
               </Grid.Col>
             </Grid>

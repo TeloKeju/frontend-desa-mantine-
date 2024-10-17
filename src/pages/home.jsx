@@ -59,7 +59,10 @@ export default function Home() {
         mt={"90px"}
       >
         <Carousel.Slide>
-          <div className={classes.hero}>
+          <div
+            className={classes.hero}
+            // style={{ backgroundImage: "./IMG_20240709_122148.jpg" }}
+          >
             <Overlay
               gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
               opacity={1}

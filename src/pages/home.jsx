@@ -60,8 +60,8 @@ export default function Home() {
       >
         <Carousel.Slide>
           <div
-            className={classes.hero}
-            // style={{ backgroundImage: "./IMG_20240709_122148.jpg" }}
+            className={classes.hero1}
+            // style={{ backgroundImage: url("/IMG_20240709_122148.jpg") }}
           >
             <Overlay
               gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </Carousel.Slide>
         <Carousel.Slide>
-          <div className={classes.hero}>
+          <div className={classes.hero2}>
             <Overlay
               gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
               opacity={1}
@@ -1181,57 +1181,27 @@ export default function Home() {
                   Menampilkan kegiatan-kegiatan yang berlangsung di desa
                 </Text>
               </Box>
-              {/* <Grid gutter={"md"}>
+              <Grid gutter={"md"}>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/IMG_20240611_105207.jpg"} />
                 </Grid.Col>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/img_3666.jpg"} />
                 </Grid.Col>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/IMG_20240611_102016.jpg"} />
                 </Grid.Col>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/IMG_20240709_122148.jpg"} />
                 </Grid.Col>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/IMG_20240619_110940.jpg"} />
                 </Grid.Col>
                 <Grid.Col span={4}>
-                  <Image
-                    h={350}
-                    src={
-                      "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-9.png"
-                    }
-                  />
+                  <Image h={350} src={"/IMG_20240702_110429.jpg"} />
                 </Grid.Col>
-              </Grid> */}
-              <Box>
+              </Grid>
+              {/* <Box>
                 <Container>
                   <Paper h={70} shadow="xs" p={"md"}>
                     <Group justify="center" align="center">
@@ -1240,7 +1210,7 @@ export default function Home() {
                     </Group>
                   </Paper>
                 </Container>
-              </Box>
+              </Box> */}
               <Group justify="flex-end">
                 <Button
                   fw={700}

@@ -1,6 +1,13 @@
-.hero {
+.hero1 {
     position: relative;
     background-image: url("/IMG_20240709_122148.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero2 {
+    position: relative;
+    background-image: url("/IMG_20240611_100815.jpg");
     background-size: cover;
     background-position: center;
   }

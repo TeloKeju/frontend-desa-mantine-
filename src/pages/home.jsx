@@ -620,12 +620,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./img_3612.jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -669,12 +669,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./img_3629.jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -718,12 +718,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./IMG-20240709-WA0030 (1).jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -767,12 +767,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./img_3704.jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -816,12 +816,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./img_3706.jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -865,12 +865,12 @@ export default function Home() {
                       radius={"md"}
                       w={"100%"}
                       h={300}
-                      src={"https://placehold.co/100x100"}
+                      src={"./IMG_20240709_110758.jpg"}
                       style={{ marginBottom: "-18px" }}
                     />
                     <Card shadow="sm" radius={"lg"}>
                       <Title order={1} size={"20px"}>
-                        Pelantikan Anggota BPD Desa Karangrejo Periode 2021-2027
+                        Sosialisasi Pengabdian Masyarakat
                       </Title>
                       <Text mt={"xs"} fw={400}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.

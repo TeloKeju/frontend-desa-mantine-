@@ -70,7 +70,7 @@ export default function DetailBerita() {
                   <Stack mt={"md"}>
                     <Text>
                       <Text component="b" fw={700}>
-                        SONOAGENG
+                        KARANGREJO
                       </Text>{" "}
                       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam quibusdam unde, placeat dolorem voluptatibus
